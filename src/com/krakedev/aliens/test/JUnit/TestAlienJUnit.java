@@ -23,8 +23,8 @@ public class TestAlienJUnit {
         Alien a3 = new Alien(20, "Morado"); // Precio cuerpo = 20 * 0.20 = 4.0
         assertEquals(4.0, a3.getPrecioCuerpo(), 0.001);
                 
-        assertEquals(2.0, a4.getPrecioExtremidad(), 0.001); // Precio extremidad = 20 * 0.10 = 2.0        
-        assertEquals(1.0, a4.getPrecioOjo(), 0.001); // Precio ojo = 20 * 0.05 = 1.0
+        assertEquals(2.0, a3.getPrecioExtremidad(), 0.001); // Precio extremidad = 20 * 0.10 = 2.0        
+        assertEquals(1.0, a3.getPrecioOjo(), 0.001); // Precio ojo = 20 * 0.05 = 1.0
         
         
 	}
