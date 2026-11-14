@@ -1,0 +1,18 @@
+package com.krakedev.aliens.test;
+
+import com.krakedev.aliens.Alien;
+
+public class TestConstructores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Alien a1 = new Alien(2, "Verde");
+		a1.imprimir();
+		
+		Alien a2 = new Alien(20, "Rojo");
+		a2.imprimir();
+
+	}
+
+}
